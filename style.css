@@ -1,0 +1,188 @@
+/*
+Theme Name: New World
+Theme URI: http://i-b-c.jp/
+Description: IBC演習用テーマ
+Version: 1.1
+Author: Sample
+Author URI: http://www.cajon.co.jp/
+*/
+
+br {
+display:none;
+line-height: 0;
+}
+.post-preview a h2:before{
+ content: url(https://kaitoblog-keikotukuru.c9users.io/wp-content/themes/cool/img/kamemaji.jpg);
+ 
+}
+.post-preview a h2{
+  color: rgba(132, 167, 255, 0.8);
+  text-decoration: none;
+}
+.post-preview a h2:hover:before{
+ content: url(https://kaitoblog-keikotukuru.c9users.io/wp-content/themes/cool/img/kameaka.jpg);
+ }
+.post-preview a h2:hover{
+  color: pink;
+  margin-left: 15px;
+  transition: all 2s;
+}
+.post-preview a:hover {
+ text-decoration: none;
+}
+p,h3,h4 {
+color: #004986;}
+
+h4 a {
+color: #004986;
+}
+
+.post-preview img {
+border-radius: 60px;
+}
+
+ul.page-nav {
+ width: 350px;
+ margin: 0 auto;
+}
+
+.page-nav li {
+ padding: 5px;
+ margin: 10px;
+ border: 1px solid #004986;
+ float: left;
+ list-style:none;
+ color: #004986;
+}
+.page-nav li:hover {
+ color: white;
+ background-color: #004986;
+}
+.page-nav li a:hover {
+ color: white;
+ background-color: #004986;
+}
+
+.page-nav li a{
+ text-decoration: none;
+}
+nav.adjacent_post_links{
+}
+          
+nav.adjacent_post_links li.previous {
+list-style:none;
+float:left;
+
+}
+nav.adjacent_post_links li.next{
+list-style:none;
+float: right;
+
+margin-right: 40px;
+}
+nav.adjacent_post_links li a{
+text-decoration:none;
+color:#004986;
+padding: 10px;
+background-color: yellow;
+border-radius: 10px;
+}
+form {
+color: #004886;
+}
+
+tbody tr {
+height: 100px;
+border-bottom: dotted 2px #004886;
+padding: 20px;
+margin: 20px;}
+tbody input,
+tbody textarea {
+border:none!important;
+}
+tbody textarea {
+height: 100px;
+border-bottom: dotted 2px #004886;
+}
+table{
+width: 70%;
+margin: 0 auto;
+}
+div.submit{
+width: 70px;
+margin: 50px auto;
+}
+
+ h3,
+ h4 {
+position: relative;
+left:5%;
+}
+@media screen and (max-width: 700px) {
+ img {
+width: 100%;
+height: auto;
+}
+}
+@media screen and (max-width: 560px){
+ input,textarea {
+width: 100%;}
+tbody tr {
+height: 132px;
+padding: 0px;
+margin: 0px;
+}
+table, tbody, tr, th, td {
+    display: block;
+}
+ tbody th {
+height: 30px;
+margin-top: 10px;
+border-bottom: dotted 2px #004886;
+}
+ tbody textarea {
+border-bottom: dotted 2px #004886;
+}
+tbody input {
+margin-top: 30px;
+}
+
+ul.sidelist li a img{
+border-radius: 60px;
+}
+p.shasin {
+color: #fff;
+} 
+span.link-text a {
+text-decoration:none;
+color: #004986;
+}
+span.link-text a:hover {
+color: pink
+}
+.naver-default.navbar-brand{
+color: #004986 !important;
+}
+ .navbar-collapse ul#kaito{
+color: #005986;
+}
+}
+aside ul li h3 a:hover {
+ position: relative;
+ margin-left: 10px;
+ transition: all 2s;
+}
+
+h4 a:hover {
+text-decoration:none;
+color: pink;
+}
+
+
+        
+            
+
+
+
+
+
