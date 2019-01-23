@@ -12,15 +12,30 @@ display:none;
 line-height: 0;
 }
 .post-preview a h2:before{
- content: url(https://kaitoblog-keikotukuru.c9users.io/wp-content/themes/cool/img/kamemaji.jpg);
- 
+ /*content: url(https://kaitoblog-keikotukuru.c9users.io/wp-content/themes/cool/img/kamemaji.jpg);*/
+ content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: -3px 0 0 10px;
+    background: url("./img/kamemaji.1.jpg") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
 }
 .post-preview a h2{
   color: rgba(132, 167, 255, 0.8);
   text-decoration: none;
 }
 .post-preview a h2:hover:before{
- content: url(https://kaitoblog-keikotukuru.c9users.io/wp-content/themes/cool/img/kameaka.jpg);
+/* content: url(https://kaitoblog-keikotukuru.c9users.io/wp-content/themes/cool/img/kameaka.jpg);*/
+ content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: -3px 0 0 10px;
+    background: url("./img/kameaka.1.jpg") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
  }
 .post-preview a h2:hover{
   color: pink;
@@ -177,12 +192,223 @@ h4 a:hover {
 text-decoration:none;
 color: pink;
 }
-
-
+@media screen and (min-width: 400px) and (max-width: 991px) {
+  .sidelist .row h3{
+ font-size: 18px;
+ padding-bottom: 10px;
+ line-height: 23px;
+}
+#sidebar{
+ margin-top: 100px;
+}
+}
         
             
+/*post.html:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+  .sidelist li a img {
+border-radius: 60px;
+}
+.news-list h2 {
+color: #004986;
+}
 
+.sidelist li h3 a:hover{
+text-decoration:none;
+color: pink;
+;
+}
 
+.sidelist li h3 a:before{
+ /*content: url(https://kaitoblog-keikotukuru.c9users.io/wp-content/themes/cool/img/kamemaji.1.jpg);*/
+ content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 0 0 10px;
+    background: url("./img/kamemaji.1.jpg") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
 
+}
 
+.sidelist li h3 a{
+  color: rgba(132, 167, 255, 0.8);
+}
+.sidelist li h3 a:hover:before{
+ /*content: url(https://kaitoblog-keikotukuru.c9users.io/wp-content/themes/cool/img/kameaka.1.jpg);*/
+ content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 0 0 10px;
+    background: url("./img/kameaka.1.jpg") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+ }
+.post-preview a h2:hover{
+  color: pink;
+  
+}
 
+span.link-text a {
+text-decoration:none;
+color: #004986;
+}
+span.link-text a:hover {
+color: pink;}
+h4 a, .sakai p, .adjacent_post_links ul li a{
+font-family: Lora,'Times New Roman',serif; 
+color: #0085A1;
+}
+.adjacent_post_links ul li{
+list-style: none;
+}
+.adjacent_post_links ul li.previous{
+float: left;
+}
+.adjacent_post_links ul li.next{
+float: right;
+}
+.adjacent_post_links ul li a{
+text-decoration: none;
+}
+.container{
+margin-top: 50px;
+}
+@media screen and (max-width: 600px){
+
+.kaito_thumbnail{
+position: absolute;
+clip: rect(0px 300px 300px 0px);
+}
+.sakai{
+/*margin-top: 300px;*/
+}
+.kalen{
+ height: 310px;
+}
+article{
+ margin-top: 80px;
+}
+}
+@media screen and (min-width: 601px) and (max-width: 899px){
+.kaito_thumbnail{
+position: absolute;
+clip: rect(200px 700px 600px 100px);
+top: -100px;
+left: -80px;
+margin: 0 auto;
+}
+.sakai{
+margin-top: 400px;
+}
+}
+@media screen and (min-width: 900px){
+.kaito_thumbnail{
+position: absolute;
+clip: rect(400px 900px 800px 0px);
+top: -250px;
+}
+.sakai{
+margin-top: 450px;
+}
+}
+@media screen and (max-width: 399px){
+.sidelist li{
+ width: 100%;
+ float: left;
+ padding: 15px;
+}
+.sidelist .row img{
+width: 80%;
+height: 50vw;
+border-radius: 45vw;
+}
+#sidebar {
+margin-top: 100px;
+}
+}
+@media screen and (min-width: 400px) and (max-width: 991px) {
+.sidelist li{
+ width: 50%;
+ float: left;
+ padding: 10px;
+}
+.sidelist .row img{
+width: 90%;
+height: 35vw;
+border-radius: 25vw;
+}
+#sidebar{
+ margin-top: 100px;
+}
+}
+@media screen and (min-width: 992px){
+.sidelist img{
+ width: 90px;
+ height: 90px;
+ border-radius: 45px;
+}
+.sidelist .row:hover{
+ margin-left: 4px;
+ transition: all 2s;
+}
+.sidelist .row h3{
+ font-size: 18px;
+ padding-bottom: 10px;
+ line-height: 23px;
+}
+}
+/*index.html***************************************************************************************************************/
+@media screen and (max-width: 599px){
+.post-preview article img {
+width: 300px;
+height: 300px;
+border-radius: 150px;
+position: relative;
+left: 50%;
+margin-left: -150px;
+}
+.post-preview article h2 {
+ font-size: 22px;
+ line-height: 30px;
+}
+}
+@media screen and (min-width: 600px){
+
+.post-preview article img {
+margin-top: 30px;
+width: 100px;
+height: 100px;
+border-radius: 50px;
+margin-left: 30px;
+}
+.post-preview article h2 {
+ font-size: 25px;
+}
+}
+.post-preview article .ton{
+font-family: Lora,'Times New Roman',serif;
+ color: #0085A1;
+}
+.cente{
+ width: 150px;
+ position: relative;
+ margin-left: -75px;
+ left: 50%;
+}
+
+.cente li{
+ list-style: none;
+ float: left;
+ box-sizing: border-box;
+}
+.cente  li a{
+color: #337ab7;
+padding: 2px 5px;
+border: 1px solid #337ab7;
+margin-left: 10px;
+  }
+.cente li a:hover{
+text-decoration: none;
+}
